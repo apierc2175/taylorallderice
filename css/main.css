@@ -1,0 +1,184 @@
+/*** sectioning elements ***/
+
+body {
+  background-color: #ddd;
+}
+
+header {
+  background-color: #b8b072;
+}
+
+head {
+  background-color: #8FBC8F;
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+
+
+/**** content styles ***/
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: kanit;
+  margin: 20px;
+  color: #2e3a64;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: abel;
+  color: #2e3a64;
+}
+
+h3 {
+  text-align: center;
+  color: #2e3a64;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p.link {
+
+}
+
+p.copyright{
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+
+tr.odd {
+background-color: #b8b072;
+}
+
+tr.even {
+  background-color: #cccccc;
+}
+
+th {
+  background-color: #2e3a64;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 4px;
+}
+
+td {
+  color: black;
+  padding: 4px;
+  text-align: center;
+}
+
+table {
+border-spacing: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+caption {
+  color: #2e3a64;
+  padding: 10px;
+  font-size: 42px;
+}
+
+/*** image styles ***/
+
+img.mascot{
+  float: right;
+}
+
+img.center{
+  text-align: center;
+}
+
+/*** link styles ***/
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #b8b072;
+}
+
+a:active {
+  color: gray;
+}
+
+.gray{
+
+}
+
+
+/*=======================
+Odin Override
+=========================*/
+.navbar {
+  background-color: #2e3a64;
+}
+
+.owl-carousel{
+  max-width: 100%;
+}
+
+.navbar-menu{
+  width: 100%;
+}
+
+
+
+.
