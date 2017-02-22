@@ -92,7 +92,9 @@ ul {
 
 }
 
-li {
+
+
+li.space {
 
 }
 
@@ -139,6 +141,10 @@ img.mascot{
 
 img.center{
   text-align: center;
+}
+
+img {
+  padding: 10px;
 }
 
 /*** link styles ***/
