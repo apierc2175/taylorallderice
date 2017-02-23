@@ -95,7 +95,7 @@ ul {
 
 
 li.space {
-
+  line-height: 50px;
 }
 
 
@@ -155,6 +155,10 @@ a:link {
 
 a:visited {
   color: white;
+}
+
+a:hover.dark {
+  color: #2e3a64;
 }
 
 a:hover {
