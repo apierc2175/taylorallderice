@@ -189,6 +189,34 @@ Odin Override
   width: 100%;
 }
 
+@media (max-width: 600px) {
 
+  table {
+    width: 100%;
+  }
 
-.
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    margin: 7px 0;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+
+  .navbar {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
