@@ -55,6 +55,7 @@ h2 {
 h3 {
   text-align: center;
   color: #2e3a64;
+  font-family: bree-serif;
 }
 
 h4 {
@@ -171,6 +172,41 @@ a:active {
 
 .gray{
 
+}
+
+a:link.news {
+  color: blue;
+}
+
+a:visited.news {
+  color:blue;
+}
+
+
+
+a:hover.news {
+  color: #ADD8E6;
+}
+
+a:active.news {
+  color: gray;
+}
+
+a:visited.brad{
+  color:white;
+}
+
+
+a:link.brad {
+  color: white;
+}
+
+a:hover.brad {
+  color: #2e3a64;
+}
+
+a:active.brad {
+  color: gray;
 }
 
 

@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/odin.css">
   <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="show-gridlines">
+
 
   <header>
 
@@ -29,7 +32,7 @@
 
       <div class="col-sm-4">
         <center>
-      <a href="index.html">  <img src="img/mascot.jpg" class="eagle"></a>
+      <a href="index.html">  <img src="img/mascot.jpg" class="eagle" alt="Mascot"></a>
        </center>
       </div>
     </div>
@@ -47,7 +50,6 @@
     </nav>
       </div>
     </header>
-    </head>
 
   <main>
     <body class="show-gridlines">
@@ -70,7 +72,7 @@
           <p>
             <ul>
               <li>Bojangle's Biscuits being sold for $3.</li>
-              <li>Purchase your cap and gown by Friday <a href="#">here.</a></li>
+              <li>Purchase your cap and gown by Friday <a href="#" class="news">here.</a></li>
               <li>Assembly during 3rd period on Friday.</li>
               <li>Remember to send in your ideas for spirit week dress up.</li>
               <li>Auditions for the spring musical Saturday at 9 A.M.</li>
@@ -86,22 +88,24 @@
         </div>
         <div class="col-sm-6">
           <h3>School Rules</h3>
-            <p>1. Arrive on time.<br>
-2. Raise your hand before speaking.<br>
-3. Listen to others and participate in class discussions.<br>
-4. Use the pencil sharpener during noninstructional time.<br>
-5. Stay on task.<br>
-6. Do your assignments.<br>
-7. Bring materials and have them ready.<br>
-8. Listen to directions.<br>
-9. Cooperate with your group.<br>
-10. Pick up after yourself.<br>
-11. Leave other people's materials alone.<br>
-12. Do not interrupt other students' learning.<br>
-13. Keep hands, feet and objects to yourself.<br>
-14. Keep your hands clean and take care of personal hygiene in the rest room during breaks.<br>
-15. No vandalism. Don't write or carve on your desk or school property.<br>
-16. Treat computers with care.<br>
+<ol>
+ <li>Arrive on time.</li>
+<li> Raise your hand before speaking.</li>
+<li> Listen to others and participate in class discussions.</li>
+<li> Use the pencil sharpener during noninstructional time.</li>
+<li> Stay on task.</li>
+ <li>Do your assignments.</li>
+ <li>Bring materials and have them ready.</li>
+<li> Listen to directions.</li>
+<li> Cooperate with your group.</li>
+<li> Pick up after yourself.</li>
+ <li>Leave other people's materials alone.</li>
+<li> Do not interrupt other students' learning.</li>
+<li> Keep hands, feet and objects to yourself.</li>
+<li> Keep your hands clean and take care of personal hygiene in the rest room during breaks.</li>
+<li> No vandalism. Don't write or carve on your desk or school property.</li>
+<li> Treat computers with care.</li>
+</ol>
 
         </div>
       </div>
@@ -115,28 +119,7 @@
         </div>
       </div>
 
-
-
-      <script src="js/lightbox-plus-jquery.min.js"></script>
-      <script src="js/jquery-2.1.4.min.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-
-      <script>
-      $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
-            items : 1,
-            autoplay : true,
-            autoplayTimeout : 2500,
-            autoplayHoverPause : true,
-            dots : true,
-            loop : true,
-            margin : 10,
-            nav : true
-        })
-       })
-      </script>
-
-    </body>
+    </main>
     <footer>
       <nav class="navbar navbar-spread">
        <div class="navbar-menu">
@@ -166,7 +149,23 @@
 
 
 
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
 
-
-  </main>
+  <script>
+  $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        items : 1,
+        autoplay : true,
+        autoplayTimeout : 2500,
+        autoplayHoverPause : true,
+        dots : true,
+        loop : true,
+        margin : 10,
+        nav : true
+    })
+   })
+  </script>
+</body>
 </html>
